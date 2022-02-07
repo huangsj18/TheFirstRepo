@@ -4,4 +4,8 @@ the content of this repo is how to use github
 
 test line GPL
 a new branch dev
-AND
+<<<<<<< HEAD
+&
+=======
+&
+>>>>>>> feature1
