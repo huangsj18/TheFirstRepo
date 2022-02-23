@@ -120,5 +120,13 @@
 
 ##### LF和RCLF
 
+CR(Carriage Return),'\r'<br>LF(Line Feed),'\n'
+
+windows	CRLF<br>Linux	LF
+
+`git config --global core.autocrlf [true|false|input]`
+
+true:默认，push CRLF->LF; pull LF->CRLF<br>false:不转换，不推荐<br>input:	push CRLF->LF;	pull 不变
+
 
 
