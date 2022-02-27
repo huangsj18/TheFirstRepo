@@ -47,3 +47,29 @@
 
 -----------------
 
+#### 公式
+
+##### 大括号
+
+$A=\left\{\begin{matrix}2,1\end{matrix}\right\}=A$
+
+$H(f)=\left\{\begin{matrix}+1, f>0\\-1, f\leq0 \end{matrix}\right.$
+
+$\left.\begin{matrix}+1, f>0\\-1, f\leq0 \end{matrix}\right\}=H(f)$
+$$
+f[i][j]=\begin{cases}
+if(p[j]\neq'*')=\begin{cases}
+f[i-1][j-1], &matches(s[i],p[j])\\
+false, &otherwise\\
+\end{cases}	\\
+otherwise=\begin{cases}
+f[i-1][j]orf[i][j-2], &matches(s[i],p[j-1])\\
+f[i][j-2], &otherwise\\
+\end{cases}	\\
+test=\begin{cases}
+\lim\limits_{x\to0} \frac{a^x}{b+c}, &x<3\\
+\pi, &x=3\\
+\int_a^{3b}x_{ij}+e^2\mathrm{d}x, &x>3\\
+\end{cases} \\
+\end{cases}
+$$
