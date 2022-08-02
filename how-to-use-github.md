@@ -62,9 +62,9 @@
 
 ![alt command](C:\Learn\Markdown&Git\TheFirstRepo\Git-establish-pic\git-command.jpg)
 
-**`git status`** <br>**`git diff`**<br>	- git diff：查看working tree与index的差别<br>	- git diff --cached：查看index与repository的差别<br>	- git diff HEAD：查看working tree和repository的差别（所以肯定也能对比之前版本的差别）<br>	还可以对比不同版本间的差异：`git diff HEAD^ HEAD^^ --stat`<br>**`git add`**<br>	- git add [file1] [file2]<br>	- git add [dir]	添加指定目录，包括子目录<br>	- git add .	添加当前目录所有文件<br>**`git restore`**<br>	-S, --staged		 restore the index<br>	-W, --worktree	restore the working tree(default)（注意这俩是大写）<br>**`git commit -m "append blabla"`**<br>**`git log`**显示从最近到最远的提交日志，可以看到commit_id<br>	--pretty=oneline参数<br>	commit id 很长，使用的时候可以只写前四五位<br>**`git reflog`**<br>**`git reset`**<br>	git reset --hard commit_id<br>	git reset --hard HEAD^<br>	本质：移动HEAD以及它所指向的branch<br>	这个网站讲的很好：https://www.jianshu.com/p/c2ec5f06cf1a![alt reset-param-word](C:\Learn\Markdown&Git\TheFirstRepo\Git-establish-pic\reset-param-word.PNG)
+**`git status`** <br>**`git diff`**<br>	- git diff：查看working tree与index的差别<br>	- git diff --cached：查看index与repository的差别<br>	- git diff HEAD：查看working tree和repository的差别（所以肯定也能对比之前版本的差别）<br>	还可以对比不同版本间的差异：`git diff HEAD^ HEAD^^ --stat`<br>**`git add`**<br>	- git add [file1] [file2]<br>	- git add [dir]	添加指定目录，包括子目录<br>	- git add .	添加当前目录所有文件<br>**`git restore`**<br>	-S, --staged		 restore the index<br>	-W, --worktree	restore the working tree(default)（注意这俩是大写）<br>**`git commit -m "append blabla"`**<br>**`git log`**显示从最近到最远的提交日志，可以看到commit_id<br>	--pretty=oneline参数<br>	commit id 很长，使用的时候可以只写前四五位<br>**`git reflog`**<br>**`git reset`**<br>	git reset --hard commit_id<br>	git reset --hard HEAD^<br>	本质：移动HEAD以及它所指向的branch<br>	这个网站讲的很好：https://www.jianshu.com/p/c2ec5f06cf1a![alt reset-param-word](.\Git-establish-pic\reset-param-word.PNG)
 
-![alt reset-param-pic](C:\Learn\Markdown&Git\TheFirstRepo\Git-establish-pic\reset-param-pic.webp)
+![alt reset-param-pic](.\Git-establish-pic\reset-param-pic.webp)
 
 ###### 撤销修改的神奇操作，深入探究`restore,checkout,reset`
 
